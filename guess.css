@@ -1,0 +1,26 @@
+*:before, *:after, *{
+    box-sizing: border-box;
+}
+body{
+    background-color: #D4D4D4;
+}
+.container{
+    margin: 20px auto;
+    width: 90%;
+    background-color: #FFF;
+    box-shadow: 0 1px 10px #000;
+    padding: 50px;
+}
+.container butts{
+    display: flex;
+}
+.container .butts button, #retry{
+    cursor: pointer;
+    margin: 10px 0;
+    background-color: #FFF;
+    padding: 5px;
+    outline-color: #fff;
+}
+.container .butts #retry{
+    display: none;
+}
